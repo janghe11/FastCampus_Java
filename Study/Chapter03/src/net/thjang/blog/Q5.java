@@ -8,4 +8,7 @@ public class Q5 {
      * 작성해 보세요.
      * static int binSearchX(int[] a, int n, int key)
      */
+    public static void main(String[] args){
+
+    }
 }
