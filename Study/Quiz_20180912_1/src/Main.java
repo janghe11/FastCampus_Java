@@ -29,12 +29,14 @@ public class Main {
         }
 
         for (int column = 0; column < n; column++) {
+            // 2진수가 아니어도 10진수로 바로 2bit 연산(bitwise) 가능
            combined[column]  = arr1[column]|arr2[column];
         }
 
         for (int column = 0; column < n; column++) {
             outArr[column] = String.valueOf(combined[column]);
             for (int count = 0; count < outArr[column].length(); count++){
+
             }
         }
     }
