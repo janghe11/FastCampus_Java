@@ -2,8 +2,8 @@ package my.examples.was;
 
 public class Main {
     public static void main(String[] args) {
-        WasServer wasServer = new WasServer(8000);
-        wasServer.start();
+        Connector connector = new Connector(8000);
+        connector.start();
         System.out.println("WAS 서버가 시작되었습니다.");
     }
 }
