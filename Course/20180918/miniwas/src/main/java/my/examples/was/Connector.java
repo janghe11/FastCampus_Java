@@ -5,16 +5,16 @@ import java.net.Socket;
 
 public class Connector extends Thread {
     private int port = 0;
-    private WasEngine wasEngine = null;
+//    private WasEngine wasEngine = null;
     private DefaultServlet defaultServlet = null;
-    private Context context = null;
+//    private Context context = null;
 
     public Connector(int port){
         this.port = port;
         // Engine, DefaultServlet, Context 생성
-        wasEngine = new WasEngine();
+//        wasEngine = new WasEngine();
         defaultServlet = new DefaultServlet();
-        context = new Context();
+//        context = new Context();
     }
 
     @Override
