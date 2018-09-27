@@ -7,7 +7,7 @@ public class Q3 {
     private int ptr2;
     private int[] stk;
 
-    public enum AorB {
+    public enum Stacks {
         Stack1, Stack2
     };
 
@@ -26,13 +26,13 @@ public class Q3 {
         ptr2 = capacity - 1;
         max = capacity;
         try {
-            stk = new int[max]; // 스택 본체용 배열을 생성
-        } catch (OutOfMemoryError e) { // 생성할 수 없습니다.
+            stk = new int[max];
+        } catch (OutOfMemoryError e) {
             max = 0;
         }
     }
 
-    public int push(AorB sw, int x) throws OverflowIntStackX2Exception {
+    public int push(Stacks sw, int x) throws OverflowIntStackX2Exception {
         if (ptr1 >= ptr2 + 1)
             throw new OverflowIntStackX2Exception();
         switch (sw) {
@@ -46,17 +46,16 @@ public class Q3 {
         return x;
     }
 
-    // 스택에서 데이터를 팝(꼭대기의 데이터를 꺼냄)
-    public int pop(AorB sw) throws EmptyIntStackX2Exception {
+    public int pop(Stacks sw) throws EmptyIntStackX2Exception {
         int x = 0;
         switch (sw) {
             case Stack1:
-                if (ptr1 <= 0) // 스택 A가 비어 있음
+                if (ptr1 <= 0)
                     throw new EmptyIntStackX2Exception();
                 x = stk[--ptr1];
                 break;
             case Stack2:
-                if (ptr2 >= max - 1) // 스택 B가 비어 있음
+                if (ptr2 >= max - 1)
                     throw new EmptyIntStackX2Exception();
                 x = stk[++ptr2];
                 break;
@@ -65,7 +64,7 @@ public class Q3 {
     }
 
     // 스택에서 데이터를 피크(꼭대기의 데이터를 살펴 봄)
-    public int peek(AorB sw) throws EmptyIntStackX2Exception {
+    public int peek(Stacks sw) throws EmptyIntStackX2Exception {
         int x = 0;
         switch (sw) {
             case Stack1:
@@ -83,7 +82,7 @@ public class Q3 {
     }
 
     // 스택에서 x를 검색하여 index(찾지 못하면 -1)를 반환
-    public int indexOf(AorB sw, int x) {
+    public int indexOf(Stacks sw, int x) {
         switch (sw) {
             case Stack1:
                 for (int i = ptr1 - 1; i >= 0; i--) // 꼭대기쪽부터 선형 검색
@@ -100,7 +99,7 @@ public class Q3 {
     }
 
     // 스택을 비움
-    public void clear(AorB sw) {
+    public void clear(Stacks sw) {
         switch (sw) {
             case Stack1:
                 ptr1 = 0;
@@ -111,13 +110,12 @@ public class Q3 {
         }
     }
 
-    // 스택의 용량을 반환 (A와 B의 합계)
     public int capacity() {
         return max;
     }
 
     // 스택에 쌓여있는 데이터 수를 반환
-    public int size(AorB sw) {
+    public int size(Stacks sw) {
         switch (sw) {
             case Stack1:
                 return ptr1;
@@ -128,7 +126,7 @@ public class Q3 {
     }
 
     // 스택이 비어 있는가?
-    public boolean isEmpty(AorB sw) {
+    public boolean isEmpty(Stacks sw) {
         switch (sw) {
             case Stack1:
                 return ptr1 <= 0;
@@ -144,7 +142,7 @@ public class Q3 {
     }
 
     // 스택 안의 터이터를 바닥 → 꼭대기의 차례로 나타냄
-    public void dump(AorB sw) {
+    public void dump(Stacks sw) {
         switch (sw) {
             case Stack1:
                 if (ptr1 <= 0)
