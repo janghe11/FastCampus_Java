@@ -2,37 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d48643a-2fa9-4c0f-8e55-f55eb2cae5d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../chatclient/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatclient/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatclient/src/main/java/my/examples/chat/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatclient/src/main/java/my/examples/chat/InputHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatclient/src/main/java/my/examples/chat/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/my/examples/chat/ChatHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/my/examples/chat/ChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/my/examples/chat/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20180918/miniwas/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20180918/miniwas/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20180918/miniwas/src/main/java/my/examples/was/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20180918/miniwas/src/main/java/my/examples/was/WasRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20180918/miniwas/src/main/java/my/examples/was/WasServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Study/Chapter03/src/net/thjang/blog/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Study/Chapter03/src/net/thjang/blog/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Study/Chapter03/src/net/thjang/blog/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Study/Chapter03/src/net/thjang/blog/Q4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Study/Chapter03/src/net/thjang/blog/Q5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Study/Chapter03/src/net/thjang/blog/Q6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Study/Chapter03/src/net/thjang/blog/Training3C_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Study/Chapter03/src/net/thjang/blog/Training3C_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Study/Chapter03/src/net/thjang/blog/Training3_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Study/Chapter03/src/net/thjang/blog/Training3_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Study/Chapter03/src/net/thjang/blog/Training3_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Study/Chapter03/src/net/thjang/blog/Training3_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Study/Chapter03/src/net/thjang/blog/Training3_8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Study/Chapter03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Study/Chapter03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Study/Chapter03/src/net/thjang/blog/Training3_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Study/Chapter03/src/net/thjang/blog/Training3_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20180904/first/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20180904/first/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20180907/CollectionSortTestMine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20180907/CollectionSortTestMine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20180907/InterfaceClassTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20180907/InterfaceClassTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20180911/FileExam01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20180911/FileExam01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20180911/FileExam01/src/FileExam04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20180911/FileExam01/src/examples/first/FileExam04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20180914/threadexam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20180914/threadexam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatclient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatclient/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20180918/miniwas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20180918/miniwas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20180920/miniwas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20180920/miniwas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20180921/MiniJackson/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20180921/MiniJackson/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20180921/miniweb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20180921/miniweb/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,11 +27,12 @@
     <session id="-895031595">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -81,11 +63,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/chat/ChatServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            <state relative-caret-position="516">
+              <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/chat/ChatHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-88">
+            <state relative-caret-position="418">
               <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -105,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/chat/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
-              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -157,6 +139,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,9 +179,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,8 +230,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2579666" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26251897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -290,18 +273,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/chat/ChatHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
+        <state relative-caret-position="418">
           <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/chat/ChatServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -311,7 +284,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/chat/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/chat/ChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

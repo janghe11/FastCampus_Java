@@ -1,3 +1,5 @@
+package examples.first;
+
 import java.io.File;
 
 public class FileExam04 {
