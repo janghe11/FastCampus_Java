@@ -23,7 +23,7 @@ public class Main {
         while (true) {
             Scanner scanner = new Scanner(System.in);
             System.out.println("그만 입력하고 싶으면 -1 입력");
-            System.out.print(cursor + "번째 작업 진도 입력(0~99) : ");
+            System.out.print((cursor + 1) + "번째 작업 진도 입력(0~99) : ");
             temp = scanner.nextInt();
             if (temp == -1) {
                 max = cursor;
@@ -52,7 +52,7 @@ public class Main {
         while (true){
             deploySum[cursor] = progresses[cursor] + speedCount*speeds[cursor];
 
-            if (cursor > max)
+            if (cursor == max)
                 break;
 
             if (deploySum[cursor] > 100){

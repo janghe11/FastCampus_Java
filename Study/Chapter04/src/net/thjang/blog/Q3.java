@@ -63,17 +63,16 @@ public class Q3 {
         return x;
     }
 
-    // 스택에서 데이터를 피크(꼭대기의 데이터를 살펴 봄)
     public int peek(Stacks sw) throws EmptyIntStackX2Exception {
         int x = 0;
         switch (sw) {
             case Stack1:
-                if (ptr1 <= 0) // 스택 A가 비어 있음
+                if (ptr1 <= 0)
                     throw new EmptyIntStackX2Exception();
                 x = stk[ptr1 - 1];
                 break;
             case Stack2:
-                if (ptr2 >= max - 1) // 스택 B가 비어 있음
+                if (ptr2 >= max - 1)
                     throw new EmptyIntStackX2Exception();
                 x = stk[ptr2 + 1];
                 break;
@@ -81,24 +80,22 @@ public class Q3 {
         return x;
     }
 
-    // 스택에서 x를 검색하여 index(찾지 못하면 -1)를 반환
     public int indexOf(Stacks sw, int x) {
         switch (sw) {
             case Stack1:
-                for (int i = ptr1 - 1; i >= 0; i--) // 꼭대기쪽부터 선형 검색
+                for (int i = ptr1 - 1; i >= 0; i--)
                     if (stk[i] == x)
-                        return i; // 검색성공
+                        return i;
                 break;
             case Stack2:
-                for (int i = ptr2 + 1; i < max; i++) // 꼭대기쪽부터 선형 검색
+                for (int i = ptr2 + 1; i < max; i++)
                     if (stk[i] == x)
-                        return i; // 검색성공
+                        return i;
                 break;
         }
-        return -1; // 검색실패
+        return -1;
     }
 
-    // 스택을 비움
     public void clear(Stacks sw) {
         switch (sw) {
             case Stack1:
@@ -114,7 +111,6 @@ public class Q3 {
         return max;
     }
 
-    // 스택에 쌓여있는 데이터 수를 반환
     public int size(Stacks sw) {
         switch (sw) {
             case Stack1:
