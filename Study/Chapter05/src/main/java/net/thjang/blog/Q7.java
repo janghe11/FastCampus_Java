@@ -7,13 +7,45 @@ import java.util.Scanner;
  */
 public class Q7 {
     static void move(int no, int x, int y) {
-        if (no > 1)
-            move(no - 1, x, 6 - x - y);
+        int[] xstk = new int[100];
+        int[] ystk = new int[100];
+        int[] sstk = new int[100];
+        int ptr = 0;
+        int sw = 0;
 
-        System.out.println("원반[" + no + "]을 " + x + "기둥에서 " + y + "기둥으로 옮김");
+        while (true) {
+            if (sw == 0 && no > 1) {
+                xstk[ptr] = x;
+                ystk[ptr] = y;
+                sstk[ptr] = sw;
+                ptr++;
+                no = no - 1;
+                y = 6 - x - y;
+                continue;
+            }
 
-        if (no > 1)
-            move(no - 1, 6 - x - y, y);
+            System.out.printf("[%d]를 %d기둥에서 %d기둥으로 옮김\n", no, x, y);
+
+            if (sw == 1 && no > 1) {
+                xstk[ptr] = x;
+                ystk[ptr] = y;
+                sstk[ptr] = sw;
+                ptr++;
+                no = no - 1;
+                x = 6 - x - y;
+                if (++sw == 2)
+                    sw = 0;
+                continue;
+            }
+            do {
+                if (ptr-- == 0)
+                    return;
+                x = xstk[ptr];
+                y = ystk[ptr];
+                sw = sstk[ptr] + 1;
+                no++;
+            } while (sw == 2);
+        }
     }
 
     public static void main(String[] args) {
