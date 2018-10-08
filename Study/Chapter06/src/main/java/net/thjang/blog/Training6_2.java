@@ -2,7 +2,7 @@ package net.thjang.blog;
 
 import java.util.Scanner;
 
-public class Training6_1 {
+public class Training6_2 {
     static void swap(int[] a, int idx1, int idx2) {
         int t = a[idx1];
         a[idx1] = a[idx2];
@@ -10,16 +10,21 @@ public class Training6_1 {
     }
 
     static void bubbleSort(int[] a, int n) {
-        for (int i = 0; i < n - 1; i++)
+        for (int i = 0; i < n - 1; i++) {
+            int exchg = 0;
             for (int j = n - 1; j > i; j--)
-                if (a[j - 1] > a[j])
+                if (a[j - 1] > a[j]) {
                     swap(a, j - 1, j);
+                    exchg++;
+                }
+            if (exchg == 0) break;
+        }
     }
 
     public static void main(String[] args){
         Scanner stdIn  = new Scanner(System.in);
 
-        System.out.println("버블 정렬(버전 1");
+        System.out.println("버블 정렬(버전 2");
         System.out.print("요솟수 : ");
         int nx = stdIn.nextInt();
         int[] x = new int[nx];
