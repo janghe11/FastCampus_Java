@@ -2,9 +2,13 @@ package net.thjang.blog;
 
 import java.util.Scanner;
 
-public class Training6_6 {
+public class Training6_7 {
     static void shellSort(int[] a, int n) {
-        for (int h = n / 2; h > 0; h /= 2)
+        int h;
+        for (h = 1; h < n / 9; h = h * 3 + 1)
+            ;
+
+        for ( ; h > 0; h /= 3)
             for (int i = h; i < n; i++) {
                 int j;
                 int tmp = a[i];
@@ -16,6 +20,7 @@ public class Training6_6 {
 
     public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
+        System.out.println("셀 정렬(버전 2)");
         System.out.print("요솟수 : ");
         int nx = stdIn.nextInt();
         int[] x = new int[nx];

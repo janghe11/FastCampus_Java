@@ -2,7 +2,7 @@ package net.thjang.blog;
 
 import java.util.Scanner;
 
-public class Training6_9 {
+public class Training6C_1 {
     static void swap(int[] a, int idx1, int idx2) {
         int t = a[idx1];
         a[idx1] = a[idx2];
@@ -13,6 +13,11 @@ public class Training6_9 {
         int pl = left;
         int pr = right;
         int x = a[(pl + pr) / 2];
+
+        System.out.printf("a[%d]~a[%d] : {", left, right);
+        for (int i = left; i < right; i++)
+            System.out.printf("%d , ", a[i]);
+        System.out.printf("%d}\n", a[right]);
 
         do {
             while (a[pl] < x) pl++;

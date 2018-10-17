@@ -2,11 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6831e5c-6827-4fab-b3be-1448dbb4e5fd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Course/20180918/miniwas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Course/20180918/miniwas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Course/20181002/guestbook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Course/20181002/guestbook/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Course/20181002/guestbooktest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Course/20181002/guestbooktest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Course/20181008/ARC/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Course/20181008/ARC/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Course/20181008/ARC/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Course/20181008/ARC/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Course/20181008/ARC/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Course/20181008/ARC/ARC.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Course/20181008/ARC/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Course/20181008/ARC/src/main/java/my/examples/arc/servlet/ARCListServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Course/20181008/ARC/src/main/java/my/examples/arc/servlet/ArcDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Course/20181008/ARC/webapp/WEB-INF/views/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Course/20181008/ARC/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bracket_20181017/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bracket_20181017/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chapter04/net/thjang/blog/Training4_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chapter04/net/thjang/blog/Training4_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/thjang/blog/Q3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/thjang/blog/Q3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FunctionModifying_20180927/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FunctionModifying_20180927/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FunctionModifying_20180927/src/net/thjang/blog/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FunctionModifying_20180927/src/net/thjang/blog/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter06/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter06/src/main/java/net/thjang/blog/Training6C_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter06/src/main/java/net/thjang/blog/Training6C_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter06/src/main/java/net/thjang/blog/Training6_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter06/src/main/java/net/thjang/blog/Training6_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter06/src/main/java/net/thjang/blog/Training6_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter06/src/main/java/net/thjang/blog/Training6_12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter06/src/main/java/net/thjang/blog/Training6_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter06/src/main/java/net/thjang/blog/Training6_13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter06/src/main/java/net/thjang/blog/Training6_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter06/src/main/java/net/thjang/blog/Training6_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter06/src/main/java/net/thjang/blog/Training6_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter06/src/main/java/net/thjang/blog/Training6_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter06/src/main/java/net/thjang/blog/Training6_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter06/src/main/java/net/thjang/blog/Training6_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter06/src/main/java/net/thjang/blog/Training6_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter06/src/main/java/net/thjang/blog/Training6_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LiliysHomework_20181017/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LiliysHomework_20181017/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LiliysHomework_20181017/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LiliysHomework_20181017/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,10 +42,10 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.43" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -50,11 +72,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/thjang/blog/Training4_1A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+            <state relative-caret-position="700">
+              <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -62,17 +84,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/thjang/blog/Q1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="340">
               <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/thjang/blog/Q3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="169">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -80,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/thjang/blog/Q2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
+            <state relative-caret-position="380">
               <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
               <folding>
                 <element signature="e#1492#1493#0" expanded="true" />
@@ -93,7 +115,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/thjang/blog/Training4_2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
+            <state relative-caret-position="900">
               <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
             </state>
           </provider>
@@ -149,6 +171,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,8 +195,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,17 +252,18 @@
       <updated>1537965672413</updated>
       <workItem from="1538028490251" duration="2958000" />
       <workItem from="1538095346321" duration="568000" />
+      <workItem from="1539731494530" duration="1001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3526000" />
+    <option name="totallyTimeSpent" value="4527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26251897" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2670713" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -278,23 +301,16 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/net/thjang/blog.java" />
-    <entry file="file://$PROJECT_DIR$/src/net/thjang/blog/Training4_1A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/thjang/blog/Q1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="340">
           <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/thjang/blog/Q2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
+        <state relative-caret-position="380">
           <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
           <folding>
             <element signature="e#1492#1493#0" expanded="true" />
@@ -305,15 +321,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/thjang/blog/Training4_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
+        <state relative-caret-position="900">
           <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/thjang/blog/Q3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="169">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/thjang/blog/Training4_1A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
         </state>
       </provider>
     </entry>
