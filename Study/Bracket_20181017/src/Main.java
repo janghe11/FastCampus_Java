@@ -38,32 +38,35 @@ public class Main {
                     openedBracket = stack.pop();
                 }
                 if ((openedBracket == '(') && (bracketChars[i] == ')')) {
+                    if (isNested == true) {
+
+                    }
                     numberTemp += 2;
                 } else if ((openedBracket == '[') && (bracketChars[i] == ']')) {
                     numberTemp += 3;
                 }
 
                 // 괄호가 괄호에 싸여 있는지 검사
-                if (i + 1 < max) {
-                    if ((bracketChars[i + 1] == ')') || (bracketChars[i + 1] == ']')) {
-                        bracketPoint--;
-
-                        if (bracketPoint != 0) {
-                            isNested = true;
-                        } else {
-                            isNested = false;
-                        }
-
-                        if (isNested == true) {
-                            openedBracket = stack.pop();
-                            if ((openedBracket == '(') && (bracketChars[i + 1] == ')')) {
-                                numberTemp *= 2;
-                            } else if ((openedBracket == '[') && (bracketChars[i + 1] == ']')) {
-                                numberTemp *= 3;
-                            }
-                        }
-                    }
-                }
+//                if (i + 1 < max) {
+//                    if ((bracketChars[i + 1] == ')') || (bracketChars[i + 1] == ']')) {
+//                        bracketPoint--;
+//
+//                        if (bracketPoint != 0) {
+//                            isNested = true;
+//                        } else {
+//                            isNested = false;
+//                        }
+//
+//                        if (isNested == true) {
+//                            openedBracket = stack.pop();
+//                            if ((openedBracket == '(') && (bracketChars[i + 1] == ')')) {
+//                                numberTemp *= 2;
+//                            } else if ((openedBracket == '[') && (bracketChars[i + 1] == ']')) {
+//                                numberTemp *= 3;
+//                            }
+//                        }
+//                    }
+//                }
 
             // 괄호 규칙에 해당하지 않으면 0으로 처리한다.
             } else {

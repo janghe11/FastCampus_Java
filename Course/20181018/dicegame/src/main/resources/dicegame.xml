@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="dicebean" class="net.thjang.blog.Dice">
+        <constructor-arg value="6" />
+    </bean>
+
+    <bean id="jyKim" class="net.thjang.blog.Player">
+        <property name="dice" ref="dicebean" />
+        <property name="name" value="김준형" />
+    </bean>
+    <bean id="ycShin" class="net.thjang.blog.Player">
+        <property name="dice" ref="dicebean" />
+        <property name="name" value="신윤철" />
+    </bean>
+    <bean id="djBae" class="net.thjang.blog.Player">
+        <property name="dice" ref="dicebean" />
+        <property name="name" value="배대준" />
+    </bean>
+    <bean id="thJang" class="net.thjang.blog.Player">
+        <property name="dice" ref="dicebean" />
+        <property name="name" value="장태희" />
+    </bean>
+
+    <bean id="game1" class="net.thjang.blog.Game">
+        <property name="players">
+            <list>
+                <ref bean="jyKim" />
+                <ref bean="ycShin" />
+                <ref bean="djBae" />
+                <ref bean="thJang" />
+            </list>
+        </property>
+    </bean>
+
+</beans>
