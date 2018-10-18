@@ -8,7 +8,8 @@ public class Main {
         ApplicationContext applicationContext
                 = new ClassPathXmlApplicationContext("student.xml");
 
-        
+        MainController mainController = applicationContext.getBean(MainController.class);
+        mainController.control();
 
 //        Student student1 = applicationContext.getBean(Student.class);
 //        StudentDAO studentDAO = applicationContext.getBean(StudentDAO.class);

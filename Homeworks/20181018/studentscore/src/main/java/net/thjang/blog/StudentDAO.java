@@ -60,9 +60,10 @@ public class StudentDAO {
 
     }
 
-    public void add(Student student) {
+    public int add(Student student) {
         PreparedStatement ps = null;
         String sql = null;
+        int count = 0;
 
         try {
             connection = connect();
@@ -79,9 +80,11 @@ public class StudentDAO {
         } finally {
             close(ps, connection);
         }
+
+        return count;
     }
 
-    public void getList() {
+    public List<Student> getList() {
         List<Student> studentsList = new ArrayList<>();
         PreparedStatement ps = null;
         ResultSet rs = null;
@@ -107,5 +110,7 @@ public class StudentDAO {
         } finally {
             close(ps, connection);
         }
+
+        return studentsList;
     }
 }

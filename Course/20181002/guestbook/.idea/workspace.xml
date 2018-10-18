@@ -7,21 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b66a9c4-d168-432d-908f-1dea1da3225a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../20181018/dicegame/src/main/java/net/thjang/blog/Dice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20181018/dicegame/src/main/java/net/thjang/blog/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20181018/dicegame/src/main/java/net/thjang/blog/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20181018/dicegame/src/main/resources/dicegame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20181018/dicegame/src/test/java/DiceGameTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/java/net/thjang/blog/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/java/net/thjang/blog/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/java/net/thjang/blog/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/java/net/thjang/blog/StudentDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/java/net/thjang/blog/UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/resources/student.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Study/Bracket_20181017/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Study/Bracket_20181017/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Study/Chapter04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Study/Chapter04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/java/net/thjang/blog/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/java/net/thjang/blog/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/java/net/thjang/blog/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/java/net/thjang/blog/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/java/net/thjang/blog/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/java/net/thjang/blog/StudentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/java/net/thjang/blog/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/java/net/thjang/blog/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/resources/student.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/resources/student.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -473,12 +464,12 @@
       <workItem from="1539232200545" duration="4531000" />
       <workItem from="1539305049811" duration="6813000" />
       <workItem from="1539563995533" duration="3740000" />
-      <workItem from="1539845260323" duration="849000" />
+      <workItem from="1539845260323" duration="1306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55289000" />
+    <option name="totallyTimeSpent" value="55746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
