@@ -19,24 +19,29 @@ public class MainController {
 
         UI ui = applicationContext.getBean(UI.class);
         studentDAO = applicationContext.getBean(StudentDAO.class);
-        selectedNumber = ui.main();
 
-        switch (selectedNumber) {
-            case 1:
-                student = ui.addStudent();
-                queryInserted = studentDAO.add(student);
+        while (true) {
 
-                if (queryInserted != 0)
-                    System.out.println("입력하신 정보가 정상적으로 반영되었습니다.");
-                else
-                    System.out.println("오류가 발생하였습니다. 다시 시도해 주세요.");
-                break;
-            case 2:
-                studentList = studentDAO.getList();
-                ui.listStudent(studentList);
-                break;
-            default:
-                break;
+            selectedNumber = ui.main();
+
+            switch (selectedNumber) {
+                case 1:
+                    student = ui.addStudent();
+                    queryInserted = studentDAO.add(student);
+
+                    if (queryInserted != 0)
+                        System.out.println("입력하신 정보가 정상적으로 반영되었습니다.");
+                    else
+                        System.out.println("오류가 발생하였습니다. 다시 시도해 주세요.");
+                    break;
+                case 2:
+                    studentList = studentDAO.getList();
+                    ui.listStudent(studentList);
+                    break;
+                default:
+                    ui.end();
+                    break;
+            }
         }
     }
 }

@@ -6,14 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b66a9c4-d168-432d-908f-1dea1da3225a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/java/net/thjang/blog/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/java/net/thjang/blog/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/java/net/thjang/blog/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/java/net/thjang/blog/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/java/net/thjang/blog/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/java/net/thjang/blog/StudentDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/java/net/thjang/blog/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/java/net/thjang/blog/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/resources/student.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homeworks/20181018/studentscore/src/main/resources/student.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7b66a9c4-d168-432d-908f-1dea1da3225a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +38,7 @@
     <session id="-1161651293">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.33" value="1" />
@@ -473,7 +466,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2996965" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

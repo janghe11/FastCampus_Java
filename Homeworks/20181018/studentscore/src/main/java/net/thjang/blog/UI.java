@@ -86,6 +86,6 @@ public class UI {
     }
 
     public void end() {
-
+        System.exit(0);
     }
 }
