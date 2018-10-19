@@ -1,26 +1,12 @@
 package net.thjang.blog;
 
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class UI {
-    private Student student;
-    private String name;
-    private int literatureScore;
-    private int englishScore;
-    private int mathScore;
-    private String registerCheck;
 
     public int main() {
         int choiceNumber = 0;
-        ApplicationContext applicationContext
-                = new ClassPathXmlApplicationContext("student.xml");
-        UI ui = null;
-        StudentDAO studentDAO = null;
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("원하시는 항목의 숫자를 입력하여 주십시오.");
@@ -45,27 +31,34 @@ public class UI {
     }
 
     public Student addStudent() {
+        Student student = new Student();
+        String name;
+        int literatureScore;
+        int englishScore;
+        int mathScore;
+        String registerCheck;
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("이름 : ");
         name = scanner.next();
         System.out.println("");
 
-        System.out.print("국어 : ");
+        System.out.print(" 국어 : ");
         literatureScore = scanner.nextInt();
         System.out.println("");
 
-        System.out.print("영어 : ");
+        System.out.print(" 영어 : ");
         englishScore = scanner.nextInt();
         System.out.println("");
 
-        System.out.print("수학 : ");
+        System.out.print(" 수학 : ");
         mathScore = scanner.nextInt();
         System.out.println("");
 
         System.out.print("등록할까요? (Y / N)");
         registerCheck = scanner.next();
 
-        if (registerCheck == "Y") {
+        if (registerCheck.equals("Y") || registerCheck.equals("y")) {
             student.setName(name);
             student.setLiteratureScore(literatureScore);
             student.setEnglishScore(englishScore);

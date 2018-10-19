@@ -2,12 +2,6 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="student1" class="net.thjang.blog.Student" >
-        <property name="name" value="AAA" />
-        <property name="literatureScore" value="90" />
-        <property name="englishScore" value="80" />
-        <property name="mathScore" value="70" />
-    </bean>
     <bean id="studentdao" class="net.thjang.blog.StudentDAO">
         <constructor-arg name="host" value="localhost:3306" />
         <constructor-arg name="database" value="student" />
@@ -15,5 +9,9 @@
         <constructor-arg name="password" value="java" />
     </bean>
     <bean id="ui" class="net.thjang.blog.UI" />
-    <bean id="maincontroller" class="net.thjang.blog.MainController" />
+
+    <bean id="maincontroller" class="net.thjang.blog.MainController" >
+        <constructor-arg name="ui" ref="ui" />
+        <constructor-arg name="studentDAO" ref="studentdao" />
+    </bean>
 </beans>
