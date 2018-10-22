@@ -6,8 +6,27 @@ public class MainController {
     private UI ui;
     private StudentDAO studentDAO;
 
+    public MainController() {
+    }
+
     public MainController(UI ui, StudentDAO studentDAO) {
         this.ui = ui;
+        this.studentDAO = studentDAO;
+    }
+
+    public UI getUi() {
+        return ui;
+    }
+
+    public void setUi(UI ui) {
+        this.ui = ui;
+    }
+
+    public StudentDAO getStudentDAO() {
+        return studentDAO;
+    }
+
+    public void setStudentDAO(StudentDAO studentDAO) {
         this.studentDAO = studentDAO;
     }
 
