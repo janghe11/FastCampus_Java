@@ -1,9 +1,9 @@
-public class Training7_1 {
+public class Training7_1A {
     private int max;
     private int num;
     private int[] set;
 
-    public Training7_1(int capacity) {
+    public Training7_1A(int capacity) {
         num = 0;
         max = capacity;
         try {
