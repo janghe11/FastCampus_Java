@@ -1,0 +1,1 @@
+insert into springboot(content, name, read_count, regdate, title, update_date) values ('content', 'kim', 0, now(), 'title', now())
