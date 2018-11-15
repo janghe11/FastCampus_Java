@@ -40,7 +40,7 @@ public class Member {
     @JoinTable(name = "favorite_product",
             joinColumns = @JoinColumn(name = "member_id", referencedColumnName = "id"),
             inverseJoinColumns = @JoinColumn(name = "product_id", referencedColumnName = "id"))
-    private List<Product> favorite;
+    private Set<Product> favorites;
     private String addr;
     @Column(length = 6)
     private Integer zipCode;
