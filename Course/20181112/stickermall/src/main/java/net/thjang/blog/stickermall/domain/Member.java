@@ -4,7 +4,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
@@ -26,7 +25,7 @@ public class Member {
     @Column(length = 20, nullable = false, unique = true)
     private String nickName;
     @OneToMany(mappedBy = "member")
-    private List<MemberCoupon> memberCouponList = new ArrayList<>();
+    private List<MemberCoupon> memberCouponList;
     @OneToMany(mappedBy = "member")
     private List<CartProduct> cart;
     @ManyToMany
