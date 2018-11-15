@@ -22,7 +22,10 @@ public class Product {
     private int totalQty;
     @Column(nullable = false)
     private int curQty;
-    @OneToMany(mappedBy = "id")
+    @ManyToMany
+    @JoinTable(name = "product_category",
+            joinColumns = @JoinColumn(name = "product_id", referencedColumnName = "id"),
+            inverseJoinColumns = @JoinColumn(name = "category_id", referencedColumnName = "id"))
     @Column(nullable = false)
     private List<Category> categoryList;
     @OneToMany(mappedBy = "id")
