@@ -47,7 +47,7 @@ public class Member {
     private String phone;
     @Column(columnDefinition = "int default 0")
     private int mileage;
-    @OneToOne
+    @ManyToOne
     @JoinColumn(name = "member_grade_id")
     private MemberGrade memberGrade;
     @Temporal(TemporalType.TIMESTAMP)

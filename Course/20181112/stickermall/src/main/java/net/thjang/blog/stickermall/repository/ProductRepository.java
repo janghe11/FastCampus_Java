@@ -13,7 +13,7 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
     Page<Product> findAllByNameOrderByIdDesc(@Param("name") String name, Pageable pageable);
 
     // 상품 category로 조회
-    @Query(value = "SELECT product FROM Product product WHERE product.categories = :categoryId ORDER BY id DESC")
+    @Query(value = "SELECT product FROM Product product WHERE product.categories IN (:categoryId) ORDER BY id DESC")
     Page<Product> findAllByCategoryIdOrderByIdDesc(@Param("categoryId")Long categoryId, Pageable pageable);
 
     // 상품 가격대별 조회
