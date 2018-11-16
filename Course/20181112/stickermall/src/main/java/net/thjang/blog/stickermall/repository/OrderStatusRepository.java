@@ -15,9 +15,6 @@ public interface OrderStatusRepository extends JpaRepository<OrderStatus, Long> 
     Page<OrderStatus> findAllByName(String name, Pageable pageable);
 
     // 주문 진행 상태명 등록
-
     // 주문 진행 상태명 수정
-
     // 주문 진행 상태명 삭제
-    void deleteByName(String name);
 }

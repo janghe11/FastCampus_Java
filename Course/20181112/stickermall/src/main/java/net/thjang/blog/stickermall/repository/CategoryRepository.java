@@ -7,12 +7,12 @@ import java.util.List;
 
 public interface CategoryRepository extends JpaRepository<Category, Long> {
     // 기존 Category 가져와서 보여주기
+    // 중복 제거를 위한 JPQL 필요
     List<Category> findAll();
 
+    // 특정 상품이 속한 카테고리들 보여주기
+
     // 새 Category 생성(삽입)하기
-
     // Category명 수정하기
-
     // Category 삭제하기
-    void deleteByName(Category category);
 }

@@ -16,7 +16,7 @@ public class Product {
     private Long id;
     @Column(nullable = false)
     private String name;
-    @Column(nullable = false, columnDefinition = "")
+    @Column(nullable = false)
     private int price;
     @Column(nullable = false)
     private int totalQty;
@@ -27,7 +27,7 @@ public class Product {
             joinColumns = @JoinColumn(name = "product_id", referencedColumnName = "id"),
             inverseJoinColumns = @JoinColumn(name = "category_id", referencedColumnName = "id"))
     @Column(nullable = false)
-    private List<Category> categoryList;
+    private List<Category> categories;
     @OneToMany(mappedBy = "id")
     @Column(nullable = false)
     private List<Image> imageList;

@@ -1,6 +1,5 @@
 package net.thjang.blog.stickermall.repository;
 
-import net.thjang.blog.stickermall.domain.Member;
 import net.thjang.blog.stickermall.domain.MemberGrade;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -10,17 +9,8 @@ public interface MemberGradeRepository extends JpaRepository<MemberGrade, Long> 
     // name 별 구매자 등급 조회
     Page<MemberGrade> findByName(String name, Pageable pageable);
 
-    // 절대값 별 구매자 등급 조회
-    Page<MemberGrade> findAllBySaleMoney(int saleMoney, Pageable pageable);
-
-    // 상대값 별 구매자 등급 조회
-    Page<MemberGrade> findAllBySaleRatio(double saleRatio, Pageable pageable);
-
     // 구매자 등급 등록
-
     // name 기준 구매자 등급 혜택 수정(절대 값, 상대 값)
-
     // 구매자 등급 삭제
-    void deleteByName(MemberGrade memberGrade);
 
 }
