@@ -24,10 +24,16 @@ public class Coupon {
     private int saleMoney;
     @Column(columnDefinition = "float default 0.0")
     private double saleRatio;
+    @Column(nullable = false, columnDefinition = "tinyint default 0")
+    private boolean freeShipping;
+    @Column(nullable = false)
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date regDate;
     private Date expireDate;
     @Column(columnDefinition = "int default 0")
     private Integer durationPeriod;
-    @Column(length = 2, nullable = false)
-    private int expireType;
+    @ManyToOne
+    @JoinColumn(name = "expire_type_id", referencedColumnName = "id")
+    private ExpireType expireType;
     private String description;
 }

@@ -16,7 +16,7 @@ public class Member {
     @Id
     @Column(length = 20, unique = true, nullable = false)
     private String id;
-    @Column(length = 20, unique = true, nullable = false)
+    @Column(length = 20, nullable = false)
     private String userName;
     @Column(nullable = false, unique = true)
     private String email;
@@ -48,6 +48,7 @@ public class Member {
     @Column(columnDefinition = "int default 0")
     private int mileage;
     @OneToOne
+    @JoinColumn(name = "member_grade_id")
     private MemberGrade memberGrade;
     @Temporal(TemporalType.TIMESTAMP)
     private Date regDate;

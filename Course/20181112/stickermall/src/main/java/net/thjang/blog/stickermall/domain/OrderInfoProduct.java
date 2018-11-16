@@ -12,6 +12,8 @@ import java.io.Serializable;
 @Setter
 public class OrderInfoProduct implements Serializable {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     @ManyToOne
     @JoinColumn(name = "order_info_id")
     private OrderInfo orderInfo;

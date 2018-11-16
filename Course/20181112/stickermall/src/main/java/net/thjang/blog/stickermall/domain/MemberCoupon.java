@@ -13,6 +13,8 @@ import java.util.Date;
 @Setter
 public class MemberCoupon implements Serializable {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     @ManyToOne
     @JoinColumn(name = "member_id", referencedColumnName = "id")
     private Member member;
@@ -27,5 +29,5 @@ public class MemberCoupon implements Serializable {
     private Date regDate;
     private Date expireDate;
     @Column(nullable = false, columnDefinition = "int default 0")
-    private int usedCheck;
+    private boolean usedCheck;
 }

@@ -12,6 +12,8 @@ import java.io.Serializable;
 @Setter
 public class CartProduct implements Serializable {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     @ManyToOne
     @JoinColumn(name = "member_id")
     private Member member;

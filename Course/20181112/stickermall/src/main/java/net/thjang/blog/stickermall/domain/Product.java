@@ -16,7 +16,7 @@ public class Product {
     private Long id;
     @Column(nullable = false)
     private String name;
-    @Column(nullable = false)
+    @Column(nullable = false, columnDefinition = "")
     private int price;
     @Column(nullable = false)
     private int totalQty;
