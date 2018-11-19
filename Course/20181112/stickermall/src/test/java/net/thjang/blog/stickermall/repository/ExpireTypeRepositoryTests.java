@@ -27,15 +27,18 @@ public class ExpireTypeRepositoryTests {
 
         Assert.assertNotNull(expireTypeList);
         for (ExpireType expireType : expireTypeList) {
-
+            System.out.println(expireType.getId() + " " + expireType.getName());
         }
     }
 
     @Test
     public void Coupon목록Name으로검색해서최근Date순으로정렬() {
         Pageable pageable = PageRequest.of(0, 5);
-        Page<ExpireType> expireTypeRepositories = expireTypeRepository.findAllByName("장태희", pageable);
+        Page<ExpireType> expireTypeList = expireTypeRepository.findAllByName("장태희", pageable);
 
-
+        Assert.assertNotNull(expireTypeList);
+        for (ExpireType expireType : expireTypeList) {
+            System.out.println(expireType.getId() + " " + expireType.getName());
+        }
     }
 }

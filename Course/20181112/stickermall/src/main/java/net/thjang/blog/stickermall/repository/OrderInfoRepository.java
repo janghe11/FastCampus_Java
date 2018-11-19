@@ -11,11 +11,11 @@ import org.springframework.data.repository.query.Param;
 
 public interface OrderInfoRepository extends JpaRepository<OrderInfo, Long> {
     // Member id && 주문 일자별 최근 순으로 정렬해서 주문 정보 가져오기(List)
-    @Query(value = "SELECT orderInfo FROM OrderInfo orderInfo WHERE orderInfo.member = :memberId ORDER BY orderInfo.orderDate DESC")
+    @Query(value = "SELECT orderInfo FROM OrderInfo orderInfo WHERE orderInfo.member.id = :memberId ORDER BY orderInfo.orderDate DESC")
     Page<OrderInfo> findAllByMemberIdOrderByOrderDateDesc(@Param("memberId") String memberId, Pageable pageable);
 
     // 관리자 - 주문 상태별로 검색해서 가져오기
-    @Query(value = "SELECT orderInfo FROM OrderInfo orderInfo WHERE orderInfo.orderStatus = :orderStatusId ORDER BY orderInfo.orderDate DESC")
+    @Query(value = "SELECT orderInfo FROM OrderInfo orderInfo WHERE orderInfo.orderStatus.id = :orderStatusId ORDER BY orderInfo.orderDate DESC")
     Page<OrderInfo> findAllByOrderStatusOrderByOrderDateDesc(@Param("orderStatusId") Long OrderStatusId, Pageable pageable);
 
     // 주문 정보 생성하기

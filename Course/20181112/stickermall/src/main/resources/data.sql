@@ -57,6 +57,7 @@ INSERT INTO product(name, price, total_qty, cur_qty, mileage) VALUES ('파이콘
 
 -- OrderInfo Sample Data
 INSERT INTO order_info(member_id, total_price, order_date, order_status, shipping_info) VALUES ('jang', 20000, now(), 2, 1);
+INSERT INTO order_info(member_id, total_price, order_date, order_status, shipping_info) VALUES ('admin', 30000, now(), 2, 1);
 
 -- OrderInfoProduct Sample Data
 INSERT INTO order_info_product(order_info_id, product_id, name, quantity, price, mileage) VALUES (1, 2, '오픈스택 스티커', 10, 1500, 15);
