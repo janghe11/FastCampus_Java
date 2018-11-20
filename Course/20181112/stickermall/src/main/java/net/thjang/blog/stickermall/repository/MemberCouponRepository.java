@@ -12,7 +12,7 @@ import org.springframework.data.repository.query.Param;
 
 public interface MemberCouponRepository extends JpaRepository<MemberCoupon, Long> {
     // id값 기준 쿠폰 조회(1건)
-    Page<MemberCoupon> findById(Long id, Pageable pageable);
+    MemberCoupon findById(Long id, Pageable pageable);
 
     // member id로 쿠폰 검색하여 쿠폰 만료일이 가장 얼마 안 남은 순으로 정렬
     @Query(value = "SELECT memberCoupon FROM MemberCoupon memberCoupon WHERE memberCoupon.member = :memberId ORDER BY memberCoupon.expireDate ASC")
