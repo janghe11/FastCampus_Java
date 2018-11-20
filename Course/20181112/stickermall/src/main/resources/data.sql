@@ -55,6 +55,14 @@ INSERT INTO product(name, price, total_qty, cur_qty, mileage) VALUES ('오픈스
 INSERT INTO product(name, price, total_qty, cur_qty, mileage) VALUES ('파이썬 스티커', 2000, 150, 0, 20);
 INSERT INTO product(name, price, total_qty, cur_qty, mileage) VALUES ('파이콘 스티커', 1000, 150, 0, 10);
 
+-- Product_Category Sample Data
+INSERT INTO product_category(product_id, category_id) VALUES (1, 1);
+INSERT INTO product_category(product_id, category_id) VALUES (1, 2);
+INSERT INTO product_category(product_id, category_id) VALUES (2, 3);
+INSERT INTO product_category(product_id, category_id) VALUES (3, 4);
+INSERT INTO product_category(product_id, category_id) VALUES (4, 1);
+INSERT INTO product_category(product_id, category_id) VALUES (4, 3);
+
 -- OrderInfo Sample Data
 INSERT INTO order_info(member_id, total_price, order_date, order_status, shipping_info) VALUES ('jang', 20000, now(), 2, 1);
 INSERT INTO order_info(member_id, total_price, order_date, order_status, shipping_info) VALUES ('admin', 30000, now(), 2, 1);

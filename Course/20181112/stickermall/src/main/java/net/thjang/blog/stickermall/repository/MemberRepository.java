@@ -14,13 +14,13 @@ public interface MemberRepository extends JpaRepository<Member, Long> {
     List<Member> findAll();
 
     // Member id별로 조회
-    Page<Member> findById(String id, Pageable pageable);
+    Member findById(String id, Pageable pageable);
 
     // Member userName별로 조회
     Page<Member> findAllByUserName(String userName, Pageable pageable);
 
     // Member nickName별로 조회
-    Page<Member> findByNickName(String nickName, Pageable pageable);
+    Member findByNickName(String nickName, Pageable pageable);
 
     // Member memberGrade별로 조회
 //    @Query(value = "SELECT member FROM Member member WHERE member.memberGrade = :memberGradeId ORDER BY id")

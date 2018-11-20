@@ -1,5 +1,6 @@
 package net.thjang.blog.stickermall.repository;
 
+import net.thjang.blog.stickermall.domain.Category;
 import net.thjang.blog.stickermall.domain.Product;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -13,8 +14,8 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
     Page<Product> findAllByNameOrderByIdDesc(@Param("name") String name, Pageable pageable);
 
     // 상품 category로 조회
-    @Query(value = "SELECT product FROM Product product WHERE product.categories IN (:categoryId) ORDER BY id DESC")
-    Page<Product> findAllByCategoryIdOrderByIdDesc(@Param("categoryId")Long categoryId, Pageable pageable);
+    @Query(value = "SELECT DISTINCT pd FROM Product pd WHERE :categoryId MEMBER OF pd.categories")
+    Page<Product> findAllByCategoryIdOrderByIdDesc(@Param("categoryId")Category category, Pageable pageable);
 
     // 상품 가격대별 조회
 
