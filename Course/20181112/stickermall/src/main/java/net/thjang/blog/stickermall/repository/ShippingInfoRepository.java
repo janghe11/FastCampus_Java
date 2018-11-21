@@ -9,7 +9,7 @@ import java.util.List;
 
 public interface ShippingInfoRepository extends JpaRepository<ShippingInfo, Long> {
     // id를 기준으로 배송 정보 조회
-     ShippingInfo findById(Long id, Pageable pageable);
+     Page<ShippingInfo> findById(Long id, Pageable pageable);
 
     // 배송정보 등록
 

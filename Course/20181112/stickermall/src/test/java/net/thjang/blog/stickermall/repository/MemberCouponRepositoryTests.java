@@ -22,16 +22,16 @@ public class MemberCouponRepositoryTests {
     @Autowired
     private MemberCouponRepository memberCouponRepository;
 
-    @Test
-	public void MemberCoupon을Id로가져오기() {
-        Pageable pageable = PageRequest.of(0, 5);
-        Page<MemberCoupon> memberCoupons = memberCouponRepository.findById(1L, pageable);
-
-        Assert.assertNotNull(memberCoupons);
-        for (MemberCoupon memberCoupon : memberCoupons) {
-            System.out.println(memberCoupon.getMember().getUserName() + " " + memberCoupon.getCoupon().getName());
-        }
-    }
+//    @Test
+//	public void MemberCoupon을Id로가져오기() {
+//        Pageable pageable = PageRequest.of(0, 5);
+//        Page<MemberCoupon> memberCoupons = memberCouponRepository.findById(1L, pageable);
+//
+//        Assert.assertNotNull(memberCoupons);
+//        for (MemberCoupon memberCoupon : memberCoupons) {
+//            System.out.println(memberCoupon.getMember().getUserName() + " " + memberCoupon.getCoupon().getName());
+//        }
+//    }
 
     //Failed
     @Test

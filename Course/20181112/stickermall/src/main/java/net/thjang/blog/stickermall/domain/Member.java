@@ -31,7 +31,7 @@ public class Member {
     @ManyToMany
     @JoinTable(name = "member_role",
                 joinColumns = @JoinColumn(name = "member_id", referencedColumnName = "id"),
-                inverseJoinColumns = @JoinColumn(name = "rold_id", referencedColumnName = "id"))
+                inverseJoinColumns = @JoinColumn(name = "role_id", referencedColumnName = "id"))
     private Set<Role> roleSet;
     @OneToMany(mappedBy = "member")
     private List<OrderInfo> orderInfoList;

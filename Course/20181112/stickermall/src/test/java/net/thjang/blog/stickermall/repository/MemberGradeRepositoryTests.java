@@ -19,14 +19,14 @@ public class MemberGradeRepositoryTests {
     @Autowired
     private MemberGradeRepository memberGradeRepository;
 
-    @Test
-	public void MemberGrade를이름으로검색() {
-        Pageable pageable = PageRequest.of(0, 5);
-        Page<MemberGrade> memberGrades = memberGradeRepository.findByName("jang", pageable);
-
-        Assert.assertNotNull(memberGrades);
-        for (MemberGrade memberGrade : memberGrades) {
-            System.out.println(memberGrade.getId() + " " + memberGrade.getName());
-        }
-    }
+//    @Test
+//	public void MemberGrade를이름으로검색() {
+//        Pageable pageable = PageRequest.of(0, 5);
+//        MemberGrade memberGrades = memberGradeRepository.findByName("jang", pageable);
+//
+//        Assert.assertNotNull(memberGrades);
+//        for (MemberGrade memberGrade : memberGrades) {
+//            System.out.println(memberGrade.getId() + " " + memberGrade.getName());
+//        }
+//    }
 }

@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface MemberGradeRepository extends JpaRepository<MemberGrade, Long> {
     // name 별 구매자 등급 조회
-    MemberGrade findByName(String name, Pageable pageable);
+    Page<MemberGrade> findByName(String name, Pageable pageable);
 
     // 구매자 등급 등록
     // name 기준 구매자 등급 혜택 수정(절대 값, 상대 값)

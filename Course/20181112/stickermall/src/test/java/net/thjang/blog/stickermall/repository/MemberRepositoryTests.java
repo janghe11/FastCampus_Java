@@ -33,16 +33,16 @@ public class MemberRepositoryTests {
         }
     }
 
-    @Test
-    public void Member를Id로검색() {
-        Pageable pageable = PageRequest.of(0, 5);
-        Page<Member> members = memberRepository.findById("jang", pageable);
-
-        Assert.assertNotNull(members);
-        for (Member member : members) {
-            System.out.println(member.getId() + " " + member.getUserName());
-        }
-    }
+//    @Test
+//    public void Member를Id로검색() {
+//        Pageable pageable = PageRequest.of(0, 5);
+//        Page<Member> members = memberRepository.findById("jang", pageable);
+//
+//        Assert.assertNotNull(members);
+//        for (Member member : members) {
+//            System.out.println(member.getId() + " " + member.getUserName());
+//        }
+//    }
 
     @Test
     public void Member를이름으로검색() {
@@ -56,16 +56,16 @@ public class MemberRepositoryTests {
     }
 
     //확인필요
-    @Test
-    public void Member를Nickname으로검색() {
-        Pageable pageable = PageRequest.of(0, 5);
-        Page<Member> members = memberRepository.findByNickName("admin", pageable);
-
-        Assert.assertNotNull(members);
-        for (Member member : members) {
-            System.out.println(member.getId() + " " + member.getUserName());
-        }
-    }
+//    @Test
+//    public void Member를Nickname으로검색() {
+//        Pageable pageable = PageRequest.of(0, 5);
+//        Page<Member> members = memberRepository.findByNickName("admin", pageable);
+//
+//        Assert.assertNotNull(members);
+//        for (Member member : members) {
+//            System.out.println(member.getId() + " " + member.getUserName());
+//        }
+//    }
 
     @Test
     public void Member를우편번호로검색() {

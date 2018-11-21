@@ -9,18 +9,20 @@ import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 
+import static org.hibernate.loader.Loader.SELECT;
+
 public interface MemberRepository extends JpaRepository<Member, Long> {
     // Member 전체 조회
     List<Member> findAll();
 
     // Member id별로 조회
-    Member findById(String id, Pageable pageable);
+    Page<Member> findById(String id, Pageable pageable);
 
     // Member userName별로 조회
     Page<Member> findAllByUserName(String userName, Pageable pageable);
 
     // Member nickName별로 조회
-    Member findByNickName(String nickName, Pageable pageable);
+    Page<Member> findByNickName(String nickName, Pageable pageable);
 
     // Member memberGrade별로 조회
 //    @Query(value = "SELECT member FROM Member member WHERE member.memberGrade = :memberGradeId ORDER BY id")
@@ -31,6 +33,10 @@ public interface MemberRepository extends JpaRepository<Member, Long> {
 
     // Member phone별로 조회
     Page<Member> findAllByPhone(String phone, Pageable pageable);
+
+    // Member email별로 조회
+    @Query("SELECT m FROM Member m WHERE m.email = :email")
+    Member findByEmail(@Param("email") String email);
 
     // Member 회원가입
     // Member 로그인

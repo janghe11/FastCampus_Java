@@ -1,5 +1,6 @@
 package net.thjang.blog.stickermall.controller;
 
+import lombok.extern.java.Log;
 import net.thjang.blog.stickermall.domain.Product;
 import net.thjang.blog.stickermall.service.ProductService;
 import org.springframework.data.domain.Page;
@@ -13,6 +14,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/products")
+@Log
 public class ProductController {
     private ProductService productService;
 

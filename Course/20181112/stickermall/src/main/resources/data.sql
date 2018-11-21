@@ -35,16 +35,23 @@ INSERT INTO order_status(name) VALUES ('배송 완료');
 INSERT INTO order_status(name) VALUES ('구매 확정');
 
 -- Role Sample Data
+INSERT INTO role(name) VALUES ('USER');
 INSERT INTO role(name) VALUES ('읽기');
 INSERT INTO role(name) VALUES ('쓰기');
-INSERT INTO role(name) VALUES ('관리자');
+INSERT INTO role(name) VALUES ('ADMIN');
 
 -- ShippingInfo Sample Data
 INSERT INTO shipping_info(user_name, zip_code, addr, phone, shipping_fee, memo) VALUES ('장태희', 11709, '경기도 의정부시 안말로85번길', '010-9976-9905', 2500, '부재시 경비실에 맡겨주세요');
 
 -- Member Sample Data
-INSERT INTO member(id, user_name, email, password, nick_name, addr, zip_code, phone, mileage, member_grade_id, reg_date, mod_date) VALUES ('admin', '관리자', 'admin@test.net', 'admin', '관리자', '서울시 광진구', 11111, '02-123-4567', 0, 5, now(), now());
-INSERT INTO member(id, user_name, email, password, nick_name, addr, zip_code, phone, mileage, member_grade_id, reg_date, mod_date) VALUES ('jang', '장태희', 'jang@test.net', '1234', '장태희1', '경기도 의정부시', 22222, '031-890-1234', 0, 1, now(), now());
+INSERT INTO member(id, user_name, email, password, nick_name, addr, zip_code, phone, mileage, member_grade_id, reg_date, mod_date) VALUES ('admin', '관리자', 'admin@test.net', '{bcrypt}$2a$10$bj3ky9P73c8m6T4kbr.gjevELP7eBrgioa1BQvT/NSVxMLTDs/PTS', '관리자', '서울시 광진구', 11111, '02-123-4567', 0, 5, now(), now());
+INSERT INTO member(id, user_name, email, password, nick_name, addr, zip_code, phone, mileage, member_grade_id, reg_date, mod_date) VALUES ('jang', '장태희', 'jang@test.net', '{bcrypt}$2a$10$fWP2to4k9LaGNJrknW00.ebH1pNWZ8h568yPuu7Qo3GbfS5Bc7/5y', '장태희1', '경기도 의정부시', 22222, '031-890-1234', 0, 1, now(), now());
+
+-- MemberRole Sample Data
+INSERT INTO member_role(member_id, role_id) VALUES ("admin", 1);
+INSERT INTO member_role(member_id, role_id) VALUES ("admin", 4);
+INSERT INTO member_role(member_id, role_id) VALUES ("jang", 1);
+INSERT INTO member_role(member_id, role_id) VALUES ("jang", 2);
 
 -- MemberCoupon Sample Data
 INSERT INTO member_coupon(member_id, coupon_id, order_info_id, reg_date, expire_date, used_check) VALUES ('jang', 1, null, now(), null, 0);
